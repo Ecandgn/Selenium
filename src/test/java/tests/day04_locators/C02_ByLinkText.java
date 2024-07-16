@@ -38,7 +38,7 @@ public class C02_ByLinkText {
 
         //4- Products linkine tiklayin
 
-        // WebElement productLinkElementi = driver.findElement(By.linkText(" Products"));
+        // WebElement productLinkElementi = driver.findElement(By.linkText(" Products")); // boşluktan dolayı çalışmadı
         // bunu bulamadigi icin partialLinkText()
         WebElement productLinkElementi = driver.findElement(By.partialLinkText("Products"));
 

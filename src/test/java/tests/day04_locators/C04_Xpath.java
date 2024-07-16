@@ -37,9 +37,9 @@ public class C04_Xpath {
         removeButonu.click();
 
         //5- “Add/Remove Elements” yazisinin gorunur oldugunu test edin
-        //WebElement addRemoveYazıElemnt=driver.findElement(By.xpath("//h2"));
-        WebElement addRemoveYaziElemnti = driver.findElement(By.tagName("h2"));
-        if (addRemoveYaziElemnti.isDisplayed()) {
+       // WebElement addRemoveYazıElemnt=driver.findElement(By.xpath("//h2"));
+        WebElement addRemoveYazıElemnt = driver.findElement(By.tagName("h2"));
+        if (addRemoveYazıElemnt.isDisplayed()) {
             System.out.println("Add remove yazısı görünme testi PASSED");
         } else System.out.println("Add remove yazısı görünme testi FAİLED");
         Thread.sleep(3000);

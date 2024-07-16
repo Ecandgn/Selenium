@@ -24,10 +24,12 @@ public class C03_WebElementMethodlari {
         //aramaKutusu.submit(); webelement de Enter basmak ile aynı işlemi yapar
         //aramaKutusu.clear(); web elementte yazı varsa siler
         //System.out.println(aramaKutusu.isDisplayed()); // tru-false web element gorunuyor mu sorusunun cevabını verir
-        System.out.println(aramaKutusu.isSelected()); // true-false webelement checbox veya radio button ise seçili mi sorusunun cevabını verir.
+        //System.out.println(aramaKutusu.isEnabled()); // true/false webelemnt görünüyormu sorusunun cevabını verir
+       // System.out.println(aramaKutusu.isSelected()); // true-false webelement checbox veya radio button ise seçili mi sorusunun cevabını verir.
         System.out.println(aramaKutusu.getAttribute("id")); //global-search
         System.out.println(aramaKutusu.getAttribute("class")); // search-input
         System.out.println(aramaKutusu.getAttribute("naber")); //null
+
 
 
         Thread.sleep(300);

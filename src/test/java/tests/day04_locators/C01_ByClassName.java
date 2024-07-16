@@ -47,7 +47,7 @@ public class C01_ByClassName {
 
         // arama sonucunda bulunan elementlerin isimlerini yazdirin
 
-        // List<WebElement> urunIsimElementleriList = driver.findElements(By.className("prod-title mb-3 "));
+        //  List<WebElement> urunIsimElementleriList = driver.findElements(By.className("prod-title mb-3 "));
 
        // System.out.println(urunIsimElementleriList);
         //class attribute'unun degerinde karakterler arasinda space varsa
